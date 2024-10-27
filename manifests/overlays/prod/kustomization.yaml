@@ -1,7 +1,7 @@
 configMapGenerator:
 - files:
   - application.yml
-  name: "82252240-configmap"
+  name: "cloud-sample-configmap"
 resources:
 - ../../base
 - pvc.yaml
