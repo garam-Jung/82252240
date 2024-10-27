@@ -1,7 +1,7 @@
 configMapGenerator:
 - files:
   - application.yml
-  name: "cloud-sample-configmap"
+  name: cloud-sample-configmap
 resources:
 - ../../base
 - pvc.yaml
@@ -13,4 +13,4 @@ kind: Kustomization
 namePrefix: prod-
 images:
 - name: cepgstapacr.azurecr.io/82252240
-  newTag: "202410270640"
+  newTag: "202410270704"
