@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-    name: sv-82252240
+    name: cloud-sampl
 spec:
     ports:
     - port: 8080 
-    selector: #pod식별
-        app: "82252240"
+    selector:
+        app: cloud-sampl
